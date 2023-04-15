@@ -1,0 +1,13 @@
+{
+    "watch": [],
+    "ext": "ts",
+    "ignore": [
+        "src/**/*.spect.ts",
+        "build",
+        "node_modules"
+    ],
+    "exec": "ts-node-dev ./src/index.ts",
+    "events": {
+        "restart": "npm run lint"
+    }
+}
